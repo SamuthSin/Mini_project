@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="../Css/Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="head">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand" id="logo"><img src="../Images/logo.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;" ></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="#navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="../Html/Home.html" class="nav-link" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Html/About.html" class="nav-link">About US</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a href="../Html/Detail.html" class="nav-link">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact US</a>
+                        </li>
+                    </ul>
+                    <form action="" class="d-flex">
+                        <input type="search" class="form-control me-2" autofocus placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        
+    </header>
+    <main>
+        <!--Homen Section-->
+
+        <section id="home">
+            <div class="content">
+                <h3>Start Your Day With a <br> Fresh Coffee</h3>
+                <p>
+                    Whether you’re drinking alone or with others, let your morning coffee be more than just caffeine. <br>
+                    Let it be a mindful pause that fuels not just your body, but also your spirit for the day ahead.
+                </p>
+                <button id="btn">Show Now</button>
+            </div>
+        </section>
+        <!--Top cards-->
+
+        <section class="top-cards">
+            <div class="heading2">
+                Top
+                <span>Categories</span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card" >
+                            <img src="../Images/11.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="../Images/12.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="../Images/13.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Menu-->
+
+        <section class="menu" id="menu">
+            <div class="container">
+                <div class="heading3">Menu</div>
+            </div>
+            <div class="container" id="container2">
+                <div class="row">
+                    
+                    <div class="col-md-3 py-3 py-md-0" >
+                        <div class="card">
+                                <img src="../Images/Amaricano.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Caffè Americano</h3>
+                                <p>$3 <span><i class="fa-regular fa-heart"></i><i class="fa-solid fa-cart-shopping"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0" >
+                        <div class="card">
+                            <img src="../Images/Fresh Milk.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Fresh Milk</h3>
+                                <p>$4 <span><i class="fa-regular fa-heart"></i><i class="fa-solid fa-cart-shopping"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0" >
+                        <div class="card">
+                            <img src="https://th.bing.com/th/id/R.9569e8e4e78577775eb7a1669c97d4d0?rik=Da4S7mL1odGcGQ&riu=http%3a%2f%2fwww.cafe-amazon.com%2fBackEnd%2fTempProducts%2f8c0c70e1b5a84f8dbd1f62fa3f3355c1.png&ehk=qxbH57ncnbgbTLKJy1KZc6g1GXefNAqbqMF2Czluhxc%3d&risl=&pid=ImgRaw&r=0" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Caffè Latte</h3>
+                                <p>$2.50 <span><i class="fa-regular fa-heart"></i><i class="fa-solid fa-cart-shopping"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0" >
+                        <div class="card">
+                            <img src="https://th.bing.com/th/id/R.0ebc17ee118237778c8752fb33058dbb?rik=Y4mY%2ffRzmV4FQA&riu=http%3a%2f%2fwww.cafe-amazon.com%2fBackEnd%2fTempProducts%2fe9e98000b0cc4a798876184b5a8c9743.png&ehk=wXoNAVmMr%2fykYqTI5TUUc1AEjOQcs6Duq16AYuaBKmM%3d&risl=&pid=ImgRaw&r=0" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Caffè Mocha</h3>
+                                <p>$4<span><i class="fa-regular fa-heart"></i><i class="fa-solid fa-cart-shopping"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-md-3 py-3 py-md-0" >
+                        <div class="card">
+                            <img src="https://th.bing.com/th/id/R.a441304f89260737db4e78c3fe412d99?rik=7%2fi3gGrbEfS1GQ&riu=http%3a%2f%2fwww.cafe-amazon.com%2fBackEnd%2fTempProducts%2f326701fc7fa84c62b47d107ed92ba675.png&ehk=kj1WwYaZnfinNQg2MaTlt5T4mA95BwbMmwfWIt%2bfbII%3d&risl=&pid=ImgRaw&r=0" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Cappuccino</h3>
+                                <p>$4.5<span><i class="fa-regular fa-heart"></i><i class="fa-solid fa-cart-shopping"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0" >
+                        <div class="card">
+                            <img src="https://www.cafe-amazon.com/BackEnd/TempProducts/a9237db1112a4bc09be59b49988c74ba.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Caffè Caramel</h3>
+                                <p>$5 <span><i class="fa-regular fa-heart"></i><i class="fa-solid fa-cart-shopping"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0" >
+                        <div class="card">
+                            <img src="https://www.cafe-amazon.com/BackEnd/TempProducts/bef840806a5d4a1bad860b6940843976.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Chocolate Latte</h3>
+                                <p>$7 <span><i class="fa-regular fa-heart"></i><i class="fa-solid fa-cart-shopping"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0" >
+                        <div class="card">
+                            <img src="https://www.cafe-amazon.com/BackEnd/TempProducts/4c039d4954094d99b712d4bc91e1d17d.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Flat White</h3>
+                                <p>$4 <span><i class="fa-regular fa-heart"></i><i class="fa-solid fa-cart-shopping"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Our Gallery-->
+
+        <div class="container " id="gallery">
+            <h1>Our <span>Gallery</span></h1>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0" >
+                    <div class="card">
+                        <img src="https://www.tastingtable.com/img/gallery/coffee-brands-ranked-from-worst-to-best/l-intro-1645231221.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0" >
+                    <div class="card">
+                        <img src="https://images.hdqwalls.com/download/i-love-coffee-1600x900.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0" >
+                    <div class="card">
+                        <img src="https://images.hdqwalls.com/download/morning-coffee-cg-1600x900.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0" >
+                    <div class="card">
+                        <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/05/09164758/Feature-image-Coffee-Brands-1600x900.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0" >
+                    <div class="card">
+                        <img src="https://specialtycoffee.id/wp-content/uploads/2023/03/The-Rise-of-Coffee-1920-x-1080px-1600x900.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0" >
+                    <div class="card">
+                        <img src="https://cdn.shopify.com/s/files/1/0452/4238/4540/collections/a94_d1e048d6-4dc3-4a17-8574-63a1ae0049eb.jpg?v=1674906863" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blogs -->
+
+        <section class="blogs" id="blogs">
+            <h1>Latest <span>Blogs</span></h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="https://onthegrid.city/imager/s3_amazonaws_com/onthegrid.city/assets/grid/new-york-city/little-italy-nolita/two-hands/twohands-5_299006722e285f47655d17d1c9136337.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Lorem, ipsum dolor.</h3>
+                                <h5>Admin / 5 March 2023</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt molestiae officia sed quis porro repellendus earum totam deleniti doloribus?</p>
+                                <button id="blogbtn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="https://www.commercialinteriordesign.com/cloud/2022/01/31/KYazQ7sA-Brew-92-1-1200x900.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Lorem, ipsum dolor.</h3>
+                                <h5>Admin / 5 March 2023</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt molestiae officia sed quis porro repellendus earum totam deleniti doloribus?</p>
+                                <button id="blogbtn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="https://i0.wp.com/newspack-berkeleyside-cityside.s3.amazonaws.com/wp-content/uploads/2023/05/Cafenated-Counter-1-scaled.jpeg?fit=1200%2C900&ssl=1" alt="">
+                            <div class="card-body">
+                                <h3>Lorem, ipsum dolor.</h3>
+                                <h5>Admin / 5 March 2023</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt molestiae officia sed quis porro repellendus earum totam deleniti doloribus?</p>
+                                <button id="blogbtn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        <div class="footer-logo text-center"><img src="../Images/logo.jpg" alt=""></div>
+        <div class="socail-link text-center">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+        <hr>
+        <div class="credite text-center">
+            Created By <a href="#">Mr.Muth</a>
+        </div>
+        <div class="copyright text-center">
+            &copy; Copyright <strong><span>Coffee Time</span></strong>. All Right Reserved!
+        </div>
+    </footer>
+
+    
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"> </script>
+</body>
+</html>

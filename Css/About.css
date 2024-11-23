@@ -1,0 +1,117 @@
+/* About Us */
+
+/* Hero Section */
+.about-section .hero-image {
+    height: 650px;
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('../Images/shop.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 18rem 1rem;
+}
+
+.about-section .hero-image h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.about-section .hero-image p {
+    font-size: 20px;
+}
+
+/* Introduction Text */
+.intro {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Philosophy Section */
+.philosophy-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0  0 100px ;
+}
+
+.philosophy-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.philosophy-section p {
+    max-width: 700px;
+    line-height: 1.6;
+    font-size: 1.5rem;
+}
+
+.philosophy-image {
+    padding-right: 120px;
+    padding-bottom: 50px;
+}
+
+.philosophy-image img {
+    width: 300px;
+}
+
+/* Promise Section */
+.promise-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.promise-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.promise-section p{
+    font-size: 1.5rem;
+}
+.promise-section ul {
+    list-style-type: disc;
+    padding-left: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+/* Menu Section */
+.menu-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    text-align: left;
+}
+
+.menu-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+}
+
+.menu-section p {
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.6;
+    padding-right: 90px;
+    font-size: 1.5rem;
+}
+
+.menu-images {
+    margin-top: 1rem;
+    padding-left: 90px;
+}
+
+.menu-images img {
+    width: 400px;
+}
